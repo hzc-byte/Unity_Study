@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class NodeBasedEditor : EditorWindow
 {
+    private static NodeBasedEditor window;
+
     private List<Node> nodes;
     private List<Connection> connections;
 
@@ -13,8 +15,33 @@ public class NodeBasedEditor : EditorWindow
     private GUIStyle inPointStyle;
     private GUIStyle outPointStyle;
 
+    private GUIStyle leftAreaBoxStyle;
+
     private ConnectionPoint selectedInPoint;
     private ConnectionPoint selectedOutPoint;
+
+    private float leftAreaWidth = 150f;
+    private float topAreaHeight = 40;
+    private Rect leftAreaRect
+    {
+        get
+        {
+            if (window != null)
+                return new Rect(0, topAreaHeight, leftAreaWidth, window.position.height);
+            else
+                return new Rect(0, 0, 0, 0);
+        }
+    }
+    private Rect topAreaRect
+    {
+        get
+        {
+            if (window != null)
+                return new Rect(0, 0, window.position.width, topAreaHeight);
+            else
+                return new Rect(0, 0, 0, 0);
+        }
+    }
 
     private Vector2 offset;
     private Vector2 drag;
@@ -22,7 +49,7 @@ public class NodeBasedEditor : EditorWindow
     [MenuItem("Window/Visual Editor")]
     private static void OpenWindow()
     {
-        NodeBasedEditor window = GetWindow<NodeBasedEditor>();
+        window = GetWindow<NodeBasedEditor>();
         window.titleContent = new GUIContent("Visual Editor");
     }
 
@@ -45,13 +72,19 @@ public class NodeBasedEditor : EditorWindow
         outPointStyle.normal.background = EditorGUIUtility.Load("builtin skins/darkskin/images/btn right.png") as Texture2D;
         outPointStyle.active.background = EditorGUIUtility.Load("builtin skins/darkskin/images/btn right on.png") as Texture2D;
         outPointStyle.border = new RectOffset(4, 4, 12, 12);
+
+        leftAreaBoxStyle = new GUIStyle();
+        leftAreaBoxStyle.normal.background = Resources.Load<Texture2D>("EditorUI/fill");
+        leftAreaBoxStyle.fontSize = 20;
+        leftAreaBoxStyle.alignment = TextAnchor.UpperCenter;
+        leftAreaBoxStyle.border = new RectOffset(0, 0, 0, 0);
     }
 
     private void OnGUI()
     {
         DrawGrid(20, 0.2f, Color.gray);
         DrawGrid(100, 0.4f, Color.gray);
-
+        DrawLeftArea(); DrawTopArea();
         DrawNodes();
         DrawConnections();
 
@@ -63,6 +96,12 @@ public class NodeBasedEditor : EditorWindow
         if (GUI.changed) Repaint();
     }
 
+    /// <summary>
+    /// 绘制编辑区域的横线竖线
+    /// </summary>
+    /// <param name="gridSpacing"></param>
+    /// <param name="gridOpacity"></param>
+    /// <param name="gridColor"></param>
     private void DrawGrid(float gridSpacing, float gridOpacity, Color gridColor)
     {
         int widthDivs = Mathf.CeilToInt(position.width / gridSpacing);
@@ -88,6 +127,26 @@ public class NodeBasedEditor : EditorWindow
         Handles.EndGUI();
     }
 
+    /// <summary>
+    /// 绘制组件区域
+    /// </summary>
+    private void DrawLeftArea()
+    {
+        GUILayout.BeginVertical();
+        GUI.Box(leftAreaRect, "", leftAreaBoxStyle);
+        GUILayout.EndVertical();
+    }
+
+    private void DrawTopArea()
+    {
+        GUILayout.BeginHorizontal();
+        GUI.Box(topAreaRect, "", leftAreaBoxStyle);
+        GUILayout.EndHorizontal();
+    }
+
+    /// <summary>
+    /// 绘制节点
+    /// </summary>
     private void DrawNodes()
     {
         if (nodes != null)
