@@ -1,0 +1,1871 @@
+{
+	"itemList": [
+		{
+			"itemCode": "20100",
+			"itemName": "倒车入库",
+			"mirrorConfig": "{\r\n\t\t\t\t\"leftMirror\": {\r\n\t\t\t\t\t\"positionX\": \"-0.91\",\r\n\t\t\t\t\t\"positionY\": \"1.036\",\r\n\t\t\t\t\t\"positionZ\": \"0.836\",\r\n\t\t\t\t\t\"rotationX\": \"7.813\",\r\n\t\t\t\t\t\"rotationY\": \"-180.24\",\r\n\t\t\t\t\t\"rotationZ\": \"0\",\r\n\t\t\t\t\t\"fieldOfView\": \"25\"\r\n\t\t\t\t},\r\n\t\t\t\t\"rightMirror\": {\r\n\t\t\t\t\t\"positionX\": \"0.8\",\r\n\t\t\t\t\t\"positionY\": \"1\",\r\n\t\t\t\t\t\"positionZ\": \"0.9\",\r\n\t\t\t\t\t\"rotationX\": \"7.9\",\r\n\t\t\t\t\t\"rotationY\": \"173.3\",\r\n\t\t\t\t\t\"rotationZ\": \"359.9\",\r\n\t\t\t\t\t\"fieldOfView\": \"30\"\r\n\t\t\t\t}\r\n\t\t\t}",
+			"windowList": [
+				{
+					"name": "DaoKuGuideRightInKuPrepare",
+					"orderNo": "1",
+					"postion": "1",
+					"cameraName": "CameraLeft",
+					"showState": {
+						"conditionList": [
+							{
+								"conditionType": "1",
+								"distance": "10",
+								"isOverLine": "1",
+								"isShow": "1",
+								"compareType": "1",
+								"line1": {
+									"point1": "20100_9",
+									"point2": "20100_6",
+									"type": "2"
+								},
+								"point": {
+									"point": "Car_Point_HeadMiddle",
+									"type": "1"
+								}
+							},
+							{
+								"conditionType": "3",
+								"carStatus": "1"
+							}
+						]
+					},
+					"hideState": {
+						"conditionList": [
+							{
+								"conditionType": "1",
+								"distance": "150",
+								"isOverLine": "1",
+								"isShow": "1",
+								"compareType": "1",
+								"line1": {
+									"point1": "20100_8",
+									"point2": "20100_7",
+									"type": "2"
+								},
+								"point": {
+									"point": "Car_Point_HeadMiddle",
+									"type": "1"
+								}
+							},
+							{
+								"conditionType": "3",
+								"carStatus": "2"
+							}
+						]
+					},
+					"showConfig": "{\r\n\t\t\t\t\t\t\"positionX\": \"-0.362\",\r\n\t\t\t\t\t\t\"positionY\": \"1.2\",\r\n\t\t\t\t\t\t\"positionZ\": \"-0.017\",\r\n\t\t\t\t\t\t\"rotationX\": \"32.3\",\r\n\t\t\t\t\t\t\"rotationY\": \"276.1\",\r\n\t\t\t\t\t\t\"rotationZ\": \"0\",\r\n\t\t\t\t\t\t\"fieldOfView\": \"70\"\r\n\t\t\t\t\t}"
+				},
+				{
+					"name": "DaoKuGuideRightInKuHuiZhengOneRoundPrePare_5",
+					"orderNo": "2",
+					"postion": "1",
+					"cameraName": "CameraLeft",
+					"showState": {
+						"conditionList": [
+							{
+								"conditionType": "1",
+								"distance": "10",
+								"isOverLine": "1",
+								"isShow": "1",
+								"compareType": "1",
+								"line1": {
+									"point1": "20100_3",
+									"point2": "20100_10",
+									"type": "2"
+								},
+								"point": {
+									"point": "Car_Point_HeadMiddle",
+									"type": "1"
+								}
+							},
+							{
+								"conditionType": "3",
+								"carStatus": "1"
+							}
+						]
+					},
+					"hideState": {
+						"conditionList": [
+							{
+								"conditionType": "1",
+								"distance": "150",
+								"isOverLine": "1",
+								"compareType": "1",
+								"isShow": "1",
+								"line1": {
+									"point1": "20100_2",
+									"point2": "20100_1",
+									"type": "2"
+								},
+								"point": {
+									"point": "Car_Point_HeadMiddle",
+									"type": "1"
+								}
+							},
+							{
+								"conditionType": "3",
+								"carStatus": "2"
+							}
+						]
+					},
+					"showConfig": "{\r\n\t\t\t\t\t\t\"positionX\": \"-0.34\",\r\n\t\t\t\t\t\t\"positionY\": \"1.21\",\r\n\t\t\t\t\t\t\"positionZ\": \"0.038\",\r\n\t\t\t\t\t\t\"rotationX\": \"32.3\",\r\n\t\t\t\t\t\t\"rotationY\": \"271.5\",\r\n\t\t\t\t\t\t\"rotationZ\": \"0\",\r\n\t\t\t\t\t\t\"fieldOfView\": \"70\"\r\n\t\t\t\t\t}"
+				}
+			],
+			"pointShowList": [
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "30",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_1",
+								"point2": "20100_2",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_BackWheelRight",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideDriveIn_1",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_24",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20000_redPoint_1",
+							"isShow": "1",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "10",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_9",
+								"point2": "20100_6",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_TailMiddle",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideDriveInStopPrepare_2",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_27",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20000_redPoint_1",
+							"isShow": "0",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "40",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_8",
+								"point2": "20100_7",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_FrontWheelRigjt",
+								"type": "1"
+							}
+						},
+						{
+							"conditionType": "3",
+							"carStatus": "3"
+						}
+					],
+					"name": "DaoKuGuideRightInKuPrepare",
+					"pointOpt": [
+						{
+							"code": "20000_redPoint_3",
+							"isShow": "1",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "30",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_9",
+								"point2": "20100_6",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_TailLeft",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideRightInKuHuiZhengOneRoundPrePare_5",
+					"pointOpt": [
+						{
+							"code": "20000_redPoint_3",
+							"isShow": "0",
+							"type": "1"
+						},
+						{
+							"code": "20100_redPoint_20",
+							"isShow": "1",
+							"type": "2"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "70",
+							"isOverLine": "0",
+							"isShow": "1",
+							"compareType": "0",
+							"line1": {
+								"point1": "Car_Point_TailRight",
+								"point2": "Car_Point_HeadRight",
+								"type": "1"
+							},
+							"point": {
+								"point": "20100_6",
+								"type": "2"
+							}
+						}
+					],
+					"name": "DaoKuGuideRightInKuHuiZhengOneRoundAction_6",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_9",
+							"isShow": "1",
+							"type": "2"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "15",
+							"isOverLine": "0",
+							"isShow": "1",
+							"compareType": "0",
+							"line1": {
+								"point1": "20100_9",
+								"point2": "20100_6",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_BackWheelRight",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideRightInKuRightAgainFullAction_7",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_8",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20100_redPoint_4",
+							"isShow": "1",
+							"type": "2"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "10",
+							"isOverLine": "0",
+							"isShow": "1",
+							"compareType": "0",
+							"line1": {
+								"point1": "20100_6",
+								"point2": "20100_3",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_BackWheelLeft",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideRightInKuRightHuiZhengAction_8",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_2",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20000_redPoint_3",
+							"isShow": "1",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "10",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_3",
+								"point2": "20100_6",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_HeadMiddle",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideLeftOutKuPrePare",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_1",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20000_redPoint_13",
+							"isShow": "1",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "0",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_6",
+								"point2": "20100_3",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_BackWheelLeft",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideLeftOutKuLeftFullAction_10",
+					"pointOpt": [
+						{
+							"code": "20000_redPoint_13",
+							"isShow": "0",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "20",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_10",
+								"point2": "20100_3",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_TailMiddle",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideLeftOutKuHuiZhengAction_11",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_17",
+							"isShow": "1",
+							"type": "2"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "40",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_1",
+								"point2": "20100_2",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_FrontWheelRigjt",
+								"type": "1"
+							}
+						},
+						{
+							"conditionType": "3",
+							"carStatus": "3"
+						}
+					],
+					"name": "DaoKuGuideLeftInKuPrePare",
+					"pointOpt": [
+						{
+							"code": "20000_redPoint_3",
+							"isShow": "1",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "10",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_3",
+								"point2": "20100_10",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_TailRight",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideLeftInKuRightOneRound_14",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_18",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20000_redPoint_3",
+							"isShow": "0",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "65",
+							"isOverLine": "0",
+							"isShow": "1",
+							"compareType": "0",
+							"line1": {
+								"point1": "Car_Point_HeadLeft",
+								"point2": "Car_Point_TailLeft",
+								"type": "1"
+							},
+							"point": {
+								"point": "20100_3",
+								"type": "2"
+							}
+						}
+					],
+					"name": "DaoKuGuideLeftInKuRightOneRoundAction_15",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_3",
+							"isShow": "1",
+							"type": "2"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "10",
+							"isOverLine": "0",
+							"isShow": "1",
+							"compareType": "0",
+							"line1": {
+								"point1": "20100_10",
+								"point2": "20100_3",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_BackWheelLeft",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideLeftInKuLeftFull_16",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_8",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20100_redPoint_4",
+							"isShow": "1",
+							"type": "2"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "5",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_6",
+								"point2": "20100_3",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_BackWheelRight",
+								"type": "1"
+							}
+						}
+					],
+					"name": "DaoKuGuideLeftInKuHuiZhengAction_17",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_2",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20000_redPoint_3",
+							"isShow": "1",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "1",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_6",
+								"point2": "20100_3",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_HeadMiddle",
+								"type": "1"
+							}
+						},
+						{
+							"conditionType": "3",
+							"carStatus": "3"
+						}
+					],
+					"name": "DaoKuGuideRightOutKuPrePare",
+					"pointOpt": [
+						{
+							"code": "20100_redPoint_1",
+							"isShow": "1",
+							"type": "2"
+						},
+						{
+							"code": "20000_redPoint_13",
+							"isShow": "1",
+							"type": "1"
+						}
+					]
+				},
+				{
+					"conditionList": [
+						{
+							"conditionType": "1",
+							"distance": "5",
+							"isOverLine": "1",
+							"isShow": "1",
+							"compareType": "1",
+							"line1": {
+								"point1": "20100_6",
+								"point2": "20100_3",
+								"type": "2"
+							},
+							"point": {
+								"point": "Car_Point_BackWheelRight",
+								"type": "1"
+							}
+						},
+						{
+							"conditionType": "3",
+							"carStatus": "3"
+						}
+					],
+					"name": "DaoKuGuideRightOutKuPrePareAction_19",
+					"pointOpt": [
+						{
+							"code": "20000_redPoint_13",
+							"isShow": "0",
+							"type": "1"
+						}
+					]
+				}
+			],
+			"stageList": [
+				{
+					"stageCode": "20100_1",
+					"stageName": "步骤名字",
+					"pointList": [
+						{
+							"eventList": [
+								{
+									"code": "20100_Guide_1",
+									"id": "20100_Guide_1",
+									"name": "DaoKuStart",
+									"nextEventCode": "20100_Guide_2",
+									"commondList": [
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop_N"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "开始倒车入库训练"
+										},
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuStart"
+										}
+									],
+									"conditionList": []
+								},
+								{
+									"code": "20100_Guide_2",
+									"id": "20100_Guide_2",
+									"name": "DaoKuStartUp",
+									"nextEventCode": "20100_Guide_3",
+									"commondList": [
+										{
+											"commondType": "WordMiddleEvent",
+											"commondValue": "下面进入引导教学，请根据语音引导完成训练，请保持2km/h速度行驶，教学过程中会主动停车，请稳踩离合与刹车，避免车辆熄火。"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "温馨提示"
+										},
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuStartUp"
+										}
+									],
+									"conditionList": []
+								},
+								{
+									"code": "20100_Guide_3",
+									"id": "20100_Guide_3",
+									"name": "DaoKuShowStartUp",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "ShowUIEvent",
+											"commondValue": "StartTip"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Open"
+										}
+									],
+									"conditionList": []
+								},
+								{
+									"code": "20100_Guide_4",
+									"id": "20100_Guide_4",
+									"name": "DaoKuGuideDriveIn_1",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideDriveIn_1.gif|left|方向盘中心点对准前方控制线左侧第三根虚线左端行驶。按确认键继续行驶。"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "驶入阶段"
+										},
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideDriveIn_1"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "30",
+											"isOverLine": "1",
+											"isShow": "1",
+											"conditionState": "1",
+											"compareType": "1",
+											"line1": {
+												"point1": "20100_1",
+												"point2": "20100_2",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelRight",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_5",
+									"id": "20100_Guide_5",
+									"name": "DaoKuGuideDriveInStopPrepare_2",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideDriveInStopPrepare_2.gif|left|当左侧肩膀与控制线平齐时停车。按确认键继续行驶。"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "驶入阶段"
+										},
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideDriveInStopPrepare_2"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "1",
+											"isShow": "1",
+											"conditionState": "1",
+											"compareType": "1",
+											"line1": {
+												"point1": "20100_9",
+												"point2": "20100_6",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_TailMiddle",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_6",
+									"id": "20100_Guide_6",
+									"name": "DaoKuGuideDriveInStopAction_3",
+									"nextEventCode": "20100_Guide_7",
+									"commondList": [
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "驶入阶段"
+										},
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideDriveInStopAction_3"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Next|CarStop"
+										},
+										{
+											"commondType": "WordLeftEvent",
+											"commondValue": "请停车"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "40",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_8",
+												"point2": "20100_7",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_FrontWheelRigjt",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "50",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_1",
+												"point2": "20100_8",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_FrontWheelLeft",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "280",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_7",
+												"point2": "20100_6",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_FrontWheelRigjt",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_7",
+									"id": "20100_Guide_7",
+									"name": "DaoKuGuideRightInKuPrepare",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideRightInKuPrepare.gif|left|挂倒挡，当左侧后视镜底边距离地面控制线10公分时，方向向右打满。按确认键继续行驶。"
+										},
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightInKuPrepare"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右倒入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": []
+								},
+								{
+									"code": "20100_Guide_8",
+									"id": "20100_Guide_8",
+									"name": "DaoKuGuideRightInKuFullAction_4",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightInKuFullAction_4"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右倒入库阶段"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "50",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_8",
+												"point2": "20100_7",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_HeadMiddle",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_9",
+									"id": "20100_Guide_9",
+									"name": "DaoKuGuideRightInKuHuiZhengOneRoundPrePare_5",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightInKuHuiZhengOneRoundPrePare_5"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右倒入库阶段"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideRightInKuHuiZhengOneRoundPrePare_5.gif|left|看右侧后视镜，车身与右侧库角第一条虚线即将重合，方向回1圈。按确认键继续行驶。"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "30",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_9",
+												"point2": "20100_6",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_TailLeft",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_10",
+									"id": "20100_Guide_10",
+									"name": "DaoKuGuideRightInKuHuiZhengOneRoundAction_6",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightInKuHuiZhengOneRoundAction_6"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右倒入库阶段"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideRightInKuHuiZhengOneRoundAction_6.gif|left|方向向左回1圈。继续看右侧后视镜，右侧库角从后视镜中消失，方向向右打满。按确认键继续行驶。"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "70",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "Car_Point_TailRight",
+												"point2": "Car_Point_HeadRight",
+												"type": "1"
+											},
+											"point": {
+												"point": "20100_6",
+												"type": "2"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "20",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_9",
+												"point2": "20100_6",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelRight",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_11",
+									"id": "20100_Guide_11",
+									"name": "DaoKuGuideRightInKuRightAgainFullAction_7",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightInKuRightAgainFullAction_7"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右倒入库阶段"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideRightInKuRightAgainFullAction_7.gif|left|方向向右打满。继续看左侧后视镜，车身与库边线平行，回正方向。按确认键继续行驶。"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "15",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_9",
+												"point2": "20100_6",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelRight",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_9",
+												"point2": "20100_6",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelRight",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_12",
+									"id": "20100_Guide_12",
+									"name": "DaoKuGuideRightInKuRightHuiZhengAction_8",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightInKuRightHuiZhengAction_8"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右倒入库阶段"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideRightInKuRightHuiZhengAction_8.gif|left|方向向左回正。当左侧后视镜下沿与左入库线平齐时停车，右倒入库完成。按确认键继续行驶"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_6",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelLeft",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "2",
+											"isShow": "1",
+											"angleType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "Car_Point_HeadRight",
+												"point2": "Car_Point_TailRight",
+												"type": "1"
+											},
+											"line2": {
+												"point1": "20100_6",
+												"point2": "20100_5",
+												"type": "2"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_13",
+									"id": "20100_Guide_13",
+									"name": "DaoKuGuideRightInKuStopAction_9",
+									"nextEventCode": "20100_Guide_14",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightInKuStopAction_9"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右倒入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Next|CarStop"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_6",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_HeadMiddle",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_14",
+									"id": "20100_Guide_14",
+									"name": "DaoKuGuideLeftOutKuPrePare",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftOutKuPrePare"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左前出库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftOutKuPrePare.gif|left|挂1挡出库，车头引擎盖前端与前方库边线平齐，方向向左打满。按确认键继续行驶。"
+										}
+									],
+									"conditionList": []
+								},
+								{
+									"code": "20100_Guide_15",
+									"id": "20100_Guide_15",
+									"name": "DaoKuGuideLeftOutKuLeftFullAction_10",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftOutKuLeftFullAction_10"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左前出库阶段"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "0",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_6",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelLeft",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_16",
+									"id": "20100_Guide_16",
+									"name": "DaoKuGuideLeftOutHuiZhengPrepare",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftOutHuiZhengPrepare"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左前出库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftOutHuiZhengPrepare.gif|left|车身与库边线平行，方向立即回正。按确认键继续行驶。"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "20",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_10",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_HeadMiddle",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_17",
+									"id": "20100_Guide_17",
+									"name": "DaoKuGuideLeftOutKuHuiZhengAction_11",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftOutKuHuiZhengAction_11"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左前出库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftOutKuHuiZhengAction_11.gif|left|当左侧肩膀与控制线平齐时停车。按确认键继续行驶。"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "20",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_10",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_TailMiddle",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_18",
+									"id": "20100_Guide_18",
+									"name": "DaoKuGuideLeftOutKuStopAction_12",
+									"nextEventCode": "20100_Guide_19",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftOutKuStopAction_12"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左前出库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Next|CarStop"
+										},
+										{
+											"commondType": "WordLeftEvent",
+											"commondValue": "请停车"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "40",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_1",
+												"point2": "20100_2",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_FrontWheelRigjt",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "100",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_1",
+												"point2": "20100_10",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_FrontWheelRigjt",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "280",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_3",
+												"point2": "20100_2",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_FrontWheelLeft",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_19",
+									"id": "20100_Guide_19",
+									"name": "DaoKuGuideLeftInKuPrePare",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftInKuPrePare.gif|left|挂倒挡，当左侧后视镜底边距离地面控制线10公分时，方向向左打满。按确认键继续行驶。"
+										},
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftInKuPrePare"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左侧入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										}
+									],
+									"conditionList": []
+								},
+								{
+									"code": "20100_Guide_20",
+									"id": "20100_Guide_20",
+									"name": "DaoKuGuideLeftInKuLeftFullAction_13",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftInKuLeftFullAction_13"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左侧入库阶段"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "40",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_1",
+												"point2": "20100_2",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_HeadMiddle",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_21",
+									"id": "20100_Guide_21",
+									"name": "DaoKuGuideLeftInKuRightOneRound_14",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftInKuRightOneRound_14"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左侧入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftInKuRightOneRound_14.gif|left|看左侧后视镜，车身与左侧库角第一条虚线即将重合，回1圈方向。按确认键继续行驶。"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_10",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_TailRight",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_22",
+									"id": "20100_Guide_22",
+									"name": "DaoKuGuideLeftInKuRightOneRoundAction_15",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftInKuRightOneRoundAction_15"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左侧入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftInKuRightOneRoundAction_15.gif|left|方向向右回1圈，继续倒车，继续看左后视镜，左侧库角从后视镜中消失，方向向左打满。按确认键继续行驶。"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "65",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "Car_Point_HeadLeft",
+												"point2": "Car_Point_TailLeft",
+												"type": "1"
+											},
+											"point": {
+												"point": "20100_3",
+												"type": "2"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "20",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_10",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelLeft",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_23",
+									"id": "20100_Guide_23",
+									"name": "DaoKuGuideLeftInKuLeftFull_16",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftInKuLeftFull_16"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左侧入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftInKuLeftFull_16.gif|left|方向向左打满，看左侧后视镜，车身与库边线平行，方向回正。按确认键继续行驶。"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "0",
+											"isShow": "1",
+											"compareType": "0",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_10",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelLeft",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "2",
+											"line1": {
+												"point1": "20100_10",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelLeft",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_24",
+									"id": "20100_Guide_24",
+									"name": "DaoKuGuideLeftInKuHuiZhengAction_17",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftInKuHuiZhengAction_17"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左侧入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideLeftInKuHuiZhengAction_17.gif|left|方向向右回正，看左侧后视镜下沿与左入库线平齐时停车，左倒入库完成。按确认键继续行驶。"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "5",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_6",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelRight",
+												"type": "1"
+											}
+										},
+										{
+											"conditionType": "2",
+											"isShow": "1",
+											"angleType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_6",
+												"point2": "20100_5",
+												"type": "2"
+											},
+											"line2": {
+												"point1": "Car_Point_HeadRight",
+												"point2": "Car_Point_TailRight",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_25",
+									"id": "20100_Guide_25",
+									"name": "DaoKuGuideLeftInKuStopAction_18",
+									"nextEventCode": "20100_Guide_26",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideLeftInKuStopAction_18"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "左侧入库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Next|CarStop"
+										},
+										{
+											"commondType": "WordLeftEvent",
+											"commondValue": "请停车"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_6",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_HeadMiddle",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_26",
+									"id": "20100_Guide_26",
+									"name": "DaoKuGuideRightOutKuPrePare",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightOutKuPrePare"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右侧出库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideRightOutKuPrePare.gif|left|挂1挡出库，车头引擎盖前端与前方库边线平齐，向右打满方向。按确认键继续行驶。"
+										}
+									],
+									"conditionList": []
+								},
+								{
+									"code": "20100_Guide_27",
+									"id": "20100_Guide_27",
+									"name": "DaoKuGuideRightOutKuPrePareAction_19",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightOutKuPrePareAction_19"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右侧出库阶段"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "5",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_6",
+												"point2": "20100_3",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelRight",
+												"type": "1"
+											}
+										}
+									]
+								},
+								{
+									"code": "20100_Guide_28",
+									"id": "20100_Guide_28",
+									"name": "DaoKuGuideRightOutKuHuiZheng_20",
+									"nextEventCode": "",
+									"commondList": [
+										{
+											"commondType": "AudioEvent",
+											"commondValue": "DaoKuGuideRightOutKuHuiZheng_20"
+										},
+										{
+											"commondType": "WordTopEvent",
+											"commondValue": "右侧出库阶段"
+										},
+										{
+											"commondType": "InputEvent",
+											"commondValue": "Stop"
+										},
+										{
+											"commondType": "GifShowEvent",
+											"commondValue": "DaoKuGuideRightOutKuHuiZheng_20.gif|left|车身左侧与库边线平行，立即回正方向，驶出项目。按确认键继续行驶。"
+										}
+									],
+									"conditionList": [
+										{
+											"conditionType": "1",
+											"distance": "10",
+											"isOverLine": "1",
+											"isShow": "1",
+											"compareType": "1",
+											"conditionState": "1",
+											"line1": {
+												"point1": "20100_9",
+												"point2": "20100_6",
+												"type": "2"
+											},
+											"point": {
+												"point": "Car_Point_BackWheelRight",
+												"type": "1"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
